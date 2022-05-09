@@ -33,7 +33,7 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 30px;
 }
 
@@ -53,7 +53,9 @@ a{
     background-image: url("../images/banner.jpeg");
     background-size: cover;
     background-position: center;
+    display: flex;
 }
+
 
 .float-left {
     float: left;
@@ -61,8 +63,13 @@ a{
 }
 
 .float-right {
-     float:right;
-     margin-right: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.float-center {
+    float:center;
+    margin:5px;
 }
 
 .content {
@@ -80,47 +87,53 @@ p{
     margin-bottom:60px;
     padding:40px;
     height: 250px;
-    width:1380px;
+    width:1800px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #A7F994;
     color:#983895;
 }
 
-#Work {
-    margin-bottom:60px;
-    padding:40px;
-    height: 285px;
-    width:1380px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #A7F994;
-    color:#983895;
+.section {
+ margin: 30px;
+ width: 100%;
+ background-color:#A7F994;
+ color:#983895
 }
 
-
-#Resume {
-    margin-bottom:60px;
-    padding:40px;
-    height: 250px;
-    width:1380px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #A7F994;
-    color:#983895;
+main {
+    display: inline-flex;
 }
 
-#Contact {
-    margin-bottom:60px;
-    padding:40px;
-    height: 100px;
-    width:1380px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #A7F994;
-    color:#983895;
+main section div p{
+    font-size: 35px;
 }
 
-#avatar img {
-    max-height: 1px;
+main section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 30px;
+    width: 50%;
+    background-color:#A7F994;
+    color:#983895
+   }
+
+.work {
+    display: inline-flexbox;
+    flex-wrap: wrap;
 }
 
-#projecthoriseon img{
-    max-height: 10px;
+.resume {
+    display:inline-flexbox;
+    flex-wrap: wrap;
 }
+
+footer {
+    padding:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#983895;
+    color:#A7F994;
+    text-align: center;
+    border-style: solid;
+    width: 1850px;
+}  
