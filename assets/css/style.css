@@ -116,8 +116,11 @@ main section {
     width: 50%;
     background-color:#A7F994;
     color:#983895
-   }
+}
 
+.linkreference {
+    color:#983895
+}
 .work {
     display: inline-flexbox;
     flex-wrap: wrap;
