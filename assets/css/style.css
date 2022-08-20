@@ -74,7 +74,6 @@ a{
 
 .content {
     width:75%;
-    display: inline-block;
     margin-left:20px;
     color:#A7F994
 }
@@ -113,7 +112,7 @@ main section {
     justify-content: space-between;
     padding: 60px;
     margin: 30px;
-    width: 50%;
+    width: 100%;
     background-color:#A7F994;
     color:#983895
 }
